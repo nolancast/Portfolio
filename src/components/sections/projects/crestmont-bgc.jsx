@@ -16,7 +16,7 @@ const CrestmontBGC = () => {
                 {/* Left Side: Project Info */}
                 <div style={{ flex: "1 1 250px", minWidth: 200 }}>
                     <img 
-                    src="/crestmont-bgc.png" 
+                    src="/Portfolio/crestmont-bgc.png" 
                     alt="Crestmont Boys and Girls Club" 
                     className="rounded-lg mb-4 w-full object-cover"/>
                     <div style={{ marginBottom: "1.5rem" }}>

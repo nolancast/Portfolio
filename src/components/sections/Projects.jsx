@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export const Projects = () => {
     const projects = [
         {
@@ -16,13 +17,13 @@ export const Projects = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {projects.map((project, idx) => (
                         <div key={idx} className="rounded-xl border border-white/10 p-6 hover:-translate-y-1 transition-all bg-white/5">
-                            <a href={project.link}>
+                            <Link to={project.link}>
                                 <img 
                                     src={project.image} 
                                     alt={project.title} 
                                     className="w-full h-48 object-cover rounded-lg mb-4 cursor-pointer hover:opacity-80 transition"
                                 />
-                            </a>
+                            </Link>
                             <h3 className="text-xl font-bold mb-2">{project.title}</h3>
                             <p className="text-gray-300">{project.description}</p>
                         </div>
