@@ -2,7 +2,7 @@ export const Projects = () => {
     const projects = [
         {
             title: "Crestmont Boys and Girls Club",
-            image: "/crestmont-bgc.png", 
+            image: "/Portfolio/crestmont-bgc.png", 
             link: "/projects/crestmont-bgc",  
             description: "The Crestmont Boys & Girls Club (BGC) is a nonprofit organization in Bloomington, IN, committed to supporting and empowering local youth. Their mission is to help young people reach their full potential as caring, responsible, and productive members of the community."
         },
