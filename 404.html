@@ -6,7 +6,6 @@
   <body>
     <p>Redirecting...</p>
     <script>
-      // For client-side routing, preserve the path after /Portfolio/
       var pathname = window.location.pathname.replace(/^\/Portfolio/, '');
       window.location.replace('/Portfolio/' + '#' + pathname + window.location.search + window.location.hash);
     </script>
