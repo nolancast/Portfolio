@@ -9,10 +9,9 @@ export const About = () => {
                     </h2>
                     <div className=" rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
                         <p className="text-gray-300 mb-6">
-                            Passionate about technology and its potential to transform lives, 
-                            I am a dedicated software engineer with a focus on creating innovative solutions. 
-                            My journey in the tech world has been driven by a desire to learn and grow, 
-                            and I thrive in collaborative environments where I can share ideas and tackle challenges with others.
+                            Passionate about technology and its potential to transform lives, I'm a dedicated software engineer who loves building intuitive and impactful solutions. 
+                            I enjoy learning new technologies, collaborating with others, and turning ideas into reality through code. 
+                            My hobbies include watching UFC and wrestling, listening to music, and staying active by lifting weights, practicing jiu jitsu, or occasionally hiking.
                         </p>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         
@@ -48,7 +47,7 @@ export const About = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+                    <div className="grid grid-cols-1  gap-6 mt-8">
                         <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
                                 <h3 className="text-xl font-bold mb-4">
                                     Education
@@ -58,7 +57,10 @@ export const About = () => {
                                         <strong>B.S in Computer Science</strong> - Indiana University Bloomington (2023-2027)
                                     </li>
                                     <li>
-                                        Relevant Coursework: Data Structures, Data Mining & Analysis
+                                        <strong>Minors:</strong> Data Science, Business
+                                    </li>
+                                    <li>
+                                        <strong>Relevant Coursework:</strong> Data Structures, Data Mining & Analysis
                                     </li>
                                 </ul>
                         </div>
@@ -69,20 +71,28 @@ export const About = () => {
                                 </h3>
                                 <div className="space-y-4 text-gray-300">
                                     <div>
-                                        <h4 className="font-semibold"> Teach IT Intern with Serve IT (Jan. 2025 - May 2025)</h4>
+                                        <h4 className="font-semibold"> Event Coordinator for IUB's Society of Hispanic Professional Engineers (Sep. 2024 - Present)</h4>
                                         <p>
-                                            Introduced students at Boys and Girls Club to engaging tech lessons, fostering their curiosity and
-                                            enhancing their understanding of technology
+                                            Organizing events to promote networking and professional development among students in STEM, 
+                                            enhancing my leadership and organizational skills while fostering a sense of community.
                                         </p>
                                     </div>
-                                    
                                     <div>
-                                        <h4 className="font-semibold"> General Merchandise Expert (Oct. 2023 - Present)</h4>
+                                        <h4 className="font-semibold"> General Merchandise Expert at Target (Oct. 2023 - Present)</h4>
                                         <p>
                                             Provided exceptional customer service, developing strong communication and problem-solving
                                             skills while assisting customers. Also, stocked, organized, and maintained merchandise shelves to ensure optimal store presentation.
                                         </p>
                                     </div>
+
+                                    <div>
+                                        <h4 className="font-semibold"> Teach IT Intern with Serve IT (Jan. 2025 - May 2025)</h4>
+                                        <p>
+                                            Taught engaging tech lessons to Boys and Girls Club students, sparking their curiosity and deepening their understanding of technology.
+                                        </p>
+                                    </div>
+                                    
+                                    
                                 </div>
                         </div>                                              
                     </div>

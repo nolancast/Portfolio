@@ -5,14 +5,14 @@ export const Projects = () => {
             title: "Crestmont Boys and Girls Club",
             image: "/Portfolio/crestmont-bgc.png", 
             link: "/projects/crestmont-bgc",  
-            description: "The Crestmont Boys & Girls Club (BGC) is a nonprofit organization in Bloomington, IN, committed to supporting and empowering local youth. Their mission is to help young people reach their full potential as caring, responsible, and productive members of the community."
+            description: "Introduced students at the Boys and Girls Club to engaging tech lessons, fostering their curiosity and enhancing their understanding of technology."
         },
     ]
     return (
         <section id="projects" className="min-h-screen flex items-center justify-center py-20">
             <div className="max-w-5xl mx-auto px-4">
                 <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent text-center">
-                    Featured Projects
+                    Featured Work
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {projects.map((project, idx) => (

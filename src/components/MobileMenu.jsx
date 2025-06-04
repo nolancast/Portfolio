@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import { useEffect } from "react"
 
 export const MobileMenu = ({menuOpen, setMenuOpen}) => {
@@ -16,35 +17,35 @@ export const MobileMenu = ({menuOpen, setMenuOpen}) => {
             >
                 &times;
             </button>
-            <a href="#home" 
+            <Link to="/" 
             onClick={() => setMenuOpen(false)}
             className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
                         ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}
                     > 
-                        Home </a>
+                        Home </Link>
                 
-                    <a href="#about" 
+                    <Link to="/about" 
                     onClick={() => setMenuOpen(false)}
                     className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
                         ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}
                     > 
-                        About </a>
+                        About </Link>
                 
                 
-                    <a href="#projects" 
+                    <Link to="/projects" 
                     onClick={() => setMenuOpen(false)}
                     className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
                         ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}
                     > 
-                        Projects </a>
+                        Projects </Link>
                 
                 
-                    <a href="#contact" 
+                    <Link to="/contact" 
                     onClick={() => setMenuOpen(false)}
                     className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
                         ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}
                     > 
-                        Contact </a>
+                        Contact </Link>
         </div>
     )
 }
