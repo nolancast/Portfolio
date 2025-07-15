@@ -10,6 +10,8 @@ import { About } from './components/sections/About';
 import { Projects } from './components/sections/Projects';
 import { Contact } from './components/sections/Contact';
 import CrestmontBGC from './components/sections/projects/crestmont-bgc';
+import SHPEWebsite from './components/sections/projects/shpe-website';
+import { UFCDataMining } from './components/sections/projects/ufc-data-mining';
 
 
 
@@ -31,6 +33,9 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/projects/crestmont-bgc" element={<CrestmontBGC />} />
+            <Route path="/projects/shpe" element={<SHPEWebsite />} />
+            <Route path="/projects/ufc-data-mining" element={<UFCDataMining />} />
+
           </Routes>
         </Router>
       </div>

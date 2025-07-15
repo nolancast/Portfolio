@@ -11,7 +11,7 @@ export const About = () => {
                         <p className="text-gray-300 mb-6">
                             Passionate about technology and its potential to transform lives, I'm a dedicated software engineer who loves building intuitive and impactful solutions. 
                             I enjoy learning new technologies, collaborating with others, and turning ideas into reality through code. 
-                            My hobbies include watching UFC and wrestling, listening to music, and staying active by lifting weights, practicing jiu jitsu, or occasionally hiking.
+                            My hobbies include watching UFC, listening to music, and staying active by lifting weights, practicing jiu jitsu, or occasionally hiking.
                         </p>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         
@@ -71,7 +71,7 @@ export const About = () => {
                                 </h3>
                                 <div className="space-y-4 text-gray-300">
                                     <div>
-                                        <h4 className="font-semibold"> Event Coordinator for IUB's Society of Hispanic Professional Engineers (Sep. 2024 - Present)</h4>
+                                        <h4 className="font-semibold"> Project Lead Developer & Event Coordinator for Indiana University's Society of Hispanic Professional Engineers (Aug. 2024 - Present)</h4>
                                         <p>
                                             Organizing events to promote networking and professional development among students in STEM, 
                                             enhancing my leadership and organizational skills while fostering a sense of community.

@@ -2,11 +2,24 @@ import { Link } from "react-router-dom";
 export const Projects = () => {
     const projects = [
         {
+            title: "Indiana University Society of Hispanic Professional Engineers",
+            image: "/Portfolio/shpelogo.png", 
+            link: "/projects/shpe",  
+            description: "Led the development of a website for the Society of Hispanic Professional Engineers, enhancing the organization's online presence and member engagement."
+        },
+        {
             title: "Crestmont Boys and Girls Club",
             image: "/Portfolio/crestmont-bgc.png", 
             link: "/projects/crestmont-bgc",  
             description: "Introduced students at the Boys and Girls Club to engaging tech lessons, fostering their curiosity and enhancing their understanding of technology."
         },
+        {
+            title: "Modeling UFC Victories with Data Science",
+            image: "/Portfolio/ufc.jpg",
+            link: "/projects/ufc-data-mining",
+            description: "Developed a machine learning pipeline to predict UFC fight winners using logistic regression and decision trees, featuring data cleaning, feature engineering, model evaluation, and visualization of performance metrics." 
+        },
+        
     ]
     return (
         <section id="projects" className="min-h-screen flex items-center justify-center py-20">
