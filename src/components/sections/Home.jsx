@@ -10,7 +10,7 @@ export const Home = () => {
                 <div className = "flex flex-col md:flex-row-reverse items-end justify-center gap-8 mt-6">
                     <div className="relative">
                     <img
-                        src="public/nolan.jpg"
+                        src="/Portfolio/nolan.jpg"
                         alt="Nolan Castaneda"
                         className="w-60 h-60 rounded-full shadow-lg border-2 border-indigo-500 hover:scale-105 transition-transform duration-300 object-cover"
                     />
