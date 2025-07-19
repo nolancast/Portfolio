@@ -15,7 +15,7 @@ export const Projects = () => {
         },
         {
             title: "Modeling UFC Victories with Data Science",
-            image: "/Portfolio/ufc.jpg",
+            image: "/Portfolio/ufc.webp",
             link: "/projects/ufc-data-mining",
             description: "Developed a machine learning pipeline to predict UFC fight winners using logistic regression and decision trees, featuring data cleaning, feature engineering, model evaluation, and visualization of performance metrics." 
         },

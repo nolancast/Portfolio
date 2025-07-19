@@ -9,8 +9,8 @@ export const About = () => {
                     </h2>
                     <div className=" rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
                         <p className="text-gray-300 mb-6">
-                            Passionate about technology and its potential to transform lives, I'm a dedicated software engineer who loves building intuitive and impactful solutions. 
-                            I enjoy learning new technologies, collaborating with others, and turning ideas into reality through code. 
+                            Passionate about technology and its potential to transform lives, I'm a dedicated student to tech who loves building intuitive and impactful solutions. 
+                            I enjoy learning new technologies, collaborating with others, and turning ideas into reality. 
                             My hobbies include watching UFC, listening to music, and staying active by lifting weights, practicing jiu jitsu, or occasionally hiking.
                         </p>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -71,27 +71,30 @@ export const About = () => {
                                 </h3>
                                 <div className="space-y-4 text-gray-300">
                                     <div>
+                                        <h4 className="font-semibold"> Access User Testing Intern with Serve IT (Aug. 2025 - Present) </h4>
+                                    </div>
+                                    <div>
                                         <h4 className="font-semibold"> Project Lead Developer & Event Coordinator for Indiana University's Society of Hispanic Professional Engineers (Aug. 2024 - Present)</h4>
-                                        <p>
-                                            Organizing events to promote networking and professional development among students in STEM, 
-                                            enhancing my leadership and organizational skills while fostering a sense of community.
-                                        </p>
+                                        
                                     </div>
                                     <div>
                                         <h4 className="font-semibold"> General Merchandise Expert at Target (Oct. 2023 - Present)</h4>
-                                        <p>
-                                            Provided exceptional customer service, developing strong communication and problem-solving
-                                            skills while assisting customers. Also, stocked, organized, and maintained merchandise shelves to ensure optimal store presentation.
-                                        </p>
+                                        
+                                    </div>
+                                    <div>
+                                        <h4 className="font-semibold"> Mover at Two Men and a Truck (May 2025 - Aug. 2025)</h4>
                                     </div>
 
                                     <div>
                                         <h4 className="font-semibold"> Teach IT Intern with Serve IT (Jan. 2025 - May 2025)</h4>
-                                        <p>
-                                            Taught engaging tech lessons to Boys and Girls Club students, sparking their curiosity and deepening their understanding of technology.
-                                        </p>
+                                       
                                     </div>
-                                    
+                                    <div>
+                                        <h4 className="font-semibold"> Influencer at Flytedesk for PPGNHAIK (Oct. 2023 - May 2024)</h4>
+                                    </div>
+                                    <div>
+                                        <h4 className="font-semibold"> Cap 2 at Walmart (Sep. 2020 - Jan. 2023)</h4>
+                                    </div>
                                     
                                 </div>
                         </div>                                              

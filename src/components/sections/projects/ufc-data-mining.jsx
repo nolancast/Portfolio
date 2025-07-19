@@ -1,4 +1,4 @@
-const UFCDataMining = () => {
+export const UFCDataMining = () => {
   return (
         <div style={{ maxWidth: 1400, margin: "0 auto", padding: "2rem 1rem", paddingTop: "5rem" }}>
             <h1 className="text-3xl font-bold mb-8 bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent text-center">
@@ -14,7 +14,7 @@ const UFCDataMining = () => {
                 {/* Left Side: Project Info */}
                 <div style={{ flex: "1 1 250px", minWidth: 200 }}>
                     <img 
-                    src="/Portfolio/ufc.jpg" 
+                    src="/Portfolio/ufc.webp" 
                     alt="ufc logo" 
                     className="rounded-lg mb-4 w-full object-cover"/>
                     <div style={{ marginBottom: "1.5rem" }}>
@@ -67,7 +67,7 @@ const UFCDataMining = () => {
                             This project demonstrated the real-world application of classification techniques in a sports analytics context. Logistic Regression outperformed the Decision Tree in both accuracy and AUC, indicating better generalization and robustness to overfitting. While betting odds provided a strong signal for prediction, the limited number of features and mild class imbalance highlighted some limitations.
                         </p>
                         <p className="text-gray-300 mt-2">
-                            Still, our model reached up to 71% AUC, showing promising potential for future expansion using more diverse fighter stats (e.g., striking, grappling, physical attributes). This experience strengthened our skills in data preprocessing, model tuning, and communicating technical insights—skills that are critical in data science and machine learning roles.
+                            Still, our model reached up to 71% AUC, showing promising potential for future expansion using more diverse fighter stats (e.g., striking, grappling, physical attributes). This experience strengthened our skills in data preprocessing, model tuning, and communicating technical insights, skills that are critical in data science and machine learning roles.
                         </p>
                     
                     </div>
