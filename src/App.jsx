@@ -12,6 +12,7 @@ import { Contact } from './components/sections/Contact';
 import CrestmontBGC from './components/sections/projects/crestmont-bgc';
 import SHPEWebsite from './components/sections/projects/shpe-website';
 import { UFCDataMining } from './components/sections/projects/ufc-data-mining';
+import BrownCountyHumaneSociety from './components/sections/projects/bchs';
 
 
 
@@ -35,6 +36,7 @@ function App() {
             <Route path="/projects/crestmont-bgc" element={<CrestmontBGC />} />
             <Route path="/projects/shpe" element={<SHPEWebsite />} />
             <Route path="/projects/ufc-data-mining" element={<UFCDataMining />} />
+            <Route path="/projects/bchs" element={<BrownCountyHumaneSociety />} />
 
           </Routes>
         </Router>

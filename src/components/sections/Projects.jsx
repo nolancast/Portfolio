@@ -2,6 +2,12 @@ import { Link } from "react-router-dom";
 export const Projects = () => {
     const projects = [
         {
+            title: "Brown County Humane Society",
+            image: "/Portfolio/bchs.png",
+            link: "/projects/bchs",
+            description: "Conducted various tests and assesments to ensure usability and accessibility of the Brown County Humane Society website, improving user experience and engagement."
+        },
+        {
             title: "Indiana University Society of Hispanic Professional Engineers",
             image: "/Portfolio/shpelogo.png", 
             link: "/projects/shpe",  
